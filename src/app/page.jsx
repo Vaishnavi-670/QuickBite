@@ -25,7 +25,7 @@ const HomePage = () => {
       <div className="container mx-auto py-12">
         <h2 className="text-3xl font-bold text-center mb-8">Featured Restaurants</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {/* Example restaurant card */}
+          
           <div className="bg-white p-4 rounded-lg shadow-md">
             <img src="/path-to-restaurant-image.jpg" alt="Restaurant" className="w-full h-40 object-cover rounded-md" />
             <h3 className="text-xl font-semibold mt-4">Restaurant Name</h3>
@@ -35,7 +35,39 @@ const HomePage = () => {
               <span className="ml-2 text-gray-500">(120 Reviews)</span>
             </div>
           </div>
-          {/* Repeat for other restaurants */}
+          
+        </div>
+      </div>
+      <div className="container mx-auto py-12">
+        <h2 className="text-3xl font-bold text-center mb-8">Featured Restaurants</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          
+          <div className="bg-white p-4 rounded-lg shadow-md">
+            <img src="/path-to-restaurant-image.jpg" alt="Restaurant" className="w-full h-40 object-cover rounded-md" />
+            <h3 className="text-xl font-semibold mt-4">Restaurant Name</h3>
+            <p className="text-gray-500">Cuisine Type</p>
+            <div className="flex items-center mt-2">
+              <span className="text-yellow-500">★★★★☆</span>
+              <span className="ml-2 text-gray-500">(120 Reviews)</span>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div className="container mx-auto py-12">
+        <h2 className="text-3xl font-bold text-center mb-8">Featured Restaurants</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          
+          <div className="bg-white p-4 rounded-lg shadow-md">
+            <img src="/path-to-restaurant-image.jpg" alt="Restaurant" className="w-full h-40 object-cover rounded-md" />
+            <h3 className="text-xl font-semibold mt-4">Restaurant Name</h3>
+            <p className="text-gray-500">Cuisine Type</p>
+            <div className="flex items-center mt-2">
+              <span className="text-yellow-500">★★★★☆</span>
+              <span className="ml-2 text-gray-500">(120 Reviews)</span>
+            </div>
+          </div>
+          
         </div>
       </div>
 
